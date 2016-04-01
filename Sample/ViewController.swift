@@ -14,6 +14,7 @@ class ViewController: UIappViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     manager.delegate = self
+    
 
     if(AppManager.sharedInstance.isReachability)
     {
